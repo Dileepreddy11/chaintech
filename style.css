@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.company-name {
+    color: white;
+}
+
+.chaintech-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-left: 120px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    margin-right: 120px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a.green-text {
+    color: lawngreen /* Green color for "Company" */
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.welcome-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.large-text {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.green-text {
+    color: rgb(124, 252, 0);
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.button-container {
+    margin-top: 40px;
+}
+
+.button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+
+.services{
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+}
+.head,.text{
+    color: black;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.container{
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+
+.c1 {
+    background-color: aquamarine;
+}
+.c2{
+    background-color: lightblue;
+}
+.c3{
+    background-color: peachpuff;
+}
+.c4{
+    background-color: hsl(271, 76%, 80%);;
+}
+.top-part,
+.middle-part,
+.bottom-part {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.top-part {
+    top: 20px;
+}
+
+.middle-part {
+    top: 80px; 
+}
+
+.bottom-part {
+    bottom: 20px;
+    text-align: right;
+}
+
+.line {
+    width: 100%;
+    border-top: 2px solid black;
+}
+
+.button2 {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+.company-name1{
+    height: 50px;
+    width: auto;
+   background-color:black;
+}
+.chaintech-text1{
+    padding: 10px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    height: 100px;
+    color:white;
+}
+hr{
+    width:400px;
+}
+footer {
+    text-align: center;
+    color: white;
+}
